@@ -1,0 +1,12 @@
+{
+  "name": "backend-yt",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "himanshu mittal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
