@@ -23,15 +23,7 @@ const generateAccessAndRefereshTokens = async (userId) => {
 }
 
 const registerUser = asyncHandler(async (req, res) => {
-    // ADD DEBUG LOGGING HERE
-    console.log('=== REGISTER USER DEBUG ===');
-    console.log('req.body:', req.body);
-    console.log('req.body type:', typeof req.body);
-    console.log('req.headers:', req.headers);
-    console.log('Content-Type:', req.headers['content-type']);
-    console.log('Request method:', req.method);
-    console.log('Request URL:', req.url);
-    console.log('========================');
+   
 
     // Check if req.body exists
     if (!req.body) {
